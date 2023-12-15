@@ -15,7 +15,7 @@ const port = process.env.PORT || 8080;
   forceHttps: true,
   requestMiddleware: [
   Corrosion.middleware.blacklist([
-    'accounts.google.com'
+    'frenzysgaming.tk'
   ], 'This page is unavailable.'),
 ]
 });*/
